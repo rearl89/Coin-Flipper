@@ -28,40 +28,42 @@ h1 {
 }
 
 .message-container {
-    color: darkorange;
+    color: coral;
     font-size: 1.5em;
     font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 button {
     font-size: 1.5em;
+    color: white;
     margin-right: 10px;
     border-radius: 10px;
 }
 
-#flip,
+#flip-penny,
 #roll {
-    background: linear-gradient(to bottom left, lightblue, white);
+    background: linear-gradient(to bottom left, gold, brown);
 }
 
-#flip:hover,
+#flip-penny:hover,
 #roll:hover {
-    background: linear-gradient(to bottom left, darkblue, lightblue);
+    background: linear-gradient(to bottom left, brown, gold);
 }
 
-#clear {
-    background: linear-gradient(to bottom left, orange, white);
+#clear-score {
+    background: linear-gradient(to bottom left, black, red);
 }
 
-#clear:hover {
-    background: linear-gradient(to bottom left, red, orange);
+#clear-score:hover {
+    background: linear-gradient(to bottom left, red, black);
 }
 
 /* Scoreboard Styles */
 table, 
 th, 
 td {
-    border: 1px solid darkorange;
+    border: 1px solid coral;
     margin: 0 auto;
 }
 
